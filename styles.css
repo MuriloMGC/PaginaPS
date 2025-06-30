@@ -1,0 +1,138 @@
+.row{
+    margin: 0 !important;
+
+}
+
+/* acessibilidade */
+.navacess {
+    border: 1px solid;
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1; 
+}
+
+.acess {
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.btnAcess {
+    border: none;
+    all: unset;
+    justify-content: center;
+}
+
+.btnAcess:hover {
+    background-color: #add8e6
+}
+
+.btnAcess:active {
+    background-color: #90ee90;
+}
+/* ------------------------------- */
+/* ouvidoria */
+.btnouv {
+    border: none;
+    border-radius: 12px;
+    background-color: #01579b;
+    justify-content: right !important;
+
+}
+.btntransp{
+    border: none;
+    border-radius: 12px;
+    background-color: #006400;
+    justify-content: right;
+}
+
+.ouv{
+    text-align: center;
+    justify-content: right;
+    color: white;
+}
+/* ---------------------------- */
+/* Menu */
+
+/* --------------------------- */
+/* Acesso Rapido */
+.acerap h4{
+    color: white;
+}
+/*-------------------------*/
+/* Noticias */
+
+.notic h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.alinhar{
+    text-align: center;
+}
+
+.conteudonoticias {
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover{
+    background-color: #d4edda;
+}
+
+.card:active{
+    background-color: #006400;
+}
+
+
+/* ------------------------*/
+/* CHATGPT */
+.notic .card img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.notic .card-body small {
+    font-size: 12px;
+}
+
+.notic .card-text {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.notic .card {
+    border-radius: 12px;
+    overflow: hidden;
+}
+/*--------------------------------------------------*/
+/* Rodapé */
+.inforodape h4{
+    color: white;
+}
+
+.containerfim{
+    background-color: #01579b
+}
+
+.rodape{
+    text-decoration: none;
+    width: 264px;
+    height: auto;
+    flex-grow: 0;
+    margin: 0 0 5px;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e1f5fe;
+}
