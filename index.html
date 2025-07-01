@@ -31,29 +31,19 @@
                 <nav class="">
                     <ul class="nav nav-acessibilidade">
                         <li class="nav-item navacess">
-                            <button type="button" class="btnAcess">
-                                <p class="acess">Aumentar Fonte</p>
-                            </button>
+                            <button type="button" class="btnAcess">Aumentar Fonte</button>
                         </li>
                         <li class="nav-item navacess">
-                            <button type="button" class="btnAcess">
-                                <p class="acess">Alto Contraste</p>
-                            </button>
+                            <button type="button" class="btnAcess">Alto Contraste</button>
                         </li>
                         <li class="nav-item navacess">
-                            <button type="button" class="btnAcess">
-                                <p class="acess">Mapa do Site</p>
-                            </button>
+                            <button type="button" class="btnAcess">Mapa do Site</button>
                         </li>
                         <li class="nav-item navacess">
-                            <button type="button" class="btnAcess">
-                                <p class="acess">Fonte para dislexia</p>
-                            </button>
+                            <button type="button" class="btnAcess">Fonte para dislexia</button>
                         </li>
                         <li class="nav-item navacess">
-                            <button type="button" class="btnAcess">
-                                <p class="acess">Sobre a Acessibilidade</p>
-                            </button>
+                            <button type="button" class="btnAcess">Sobre a Acessibilidade</button>
                         </li>
                     </ul>
                 </nav>
@@ -63,20 +53,13 @@
     <!-- Fim Painel Acessibilidade -->
 
     <!-- Inicio Logo/Ouvidoria -->
-    <div class="container">
+    <div class="container ouvidoria">
         <div class="row">
             <div class="col-12 ouvidoria d-flex align-items-center justify-content-between">
-                <!-- Imagem à esquerda -->
                 <img src="img/logo-mpx.png" alt="Logo" style="height: 50px;">
-
-                <!-- Botões agrupados à direita -->
                 <div class="d-flex">
-                    <button type="button" class="btnouv me-2">
-                        <p class="ouv">Ouvidoria</p>
-                    </button>
-                    <button type="button" class="btntransp">
-                        <p class="ouv">Portal Transparência</p>
-                    </button>
+                    <button type="button" class="btnouv me-2">Ouvidoria</button>
+                    <button type="button" class="btntransp">Portal Transparência</button>
                 </div>
             </div>
         </div>
@@ -90,24 +73,26 @@
     <!-- Inicio Acesso Rapido -->
     <div class="container-fluid containerfim"> <!-- Containerfim é a classe que está o background -->
         <div class="container">
-            <div class="row">
-                <div class="col-12 acerap">
-                    <h4>Acesso Rápido</h4>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6 acerap">
+                    <h4 class="m-0">Acesso Rápido</h4>
                 </div>
-                <div class="form-group-padrao-busca">
+                <div class="col-md-4 text-end">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Pesquise no Site" aria-label=""
-                            aria-describedby="">
+                        <input type="text" class="form-control" placeholder="O que você está procurando?" />
+                        <span class="input-group-text">
+                            <i class="bi bi-search"></i>
+                        </span>
                     </div>
-                    <p>aaaaaa</p>
                 </div>
             </div>
+            a
         </div>
     </div>
     <!-- Fim Acesso Rapido -->
 
     <!-- Inicio Noticias -->
-    <div class="container-fluid noti">
+    <div class="container noti">
         <div class="container notic">
             <div class="row mb-4">
                 <h4>Notícias</h4>
@@ -186,13 +171,49 @@
                 </div>
             </div>
         </div>
+        <div class="botao-container">
+            <button class="btnnoticia">Veja mais notícias</button>
+        </div>
     </div>
     <!-- Fim Noticias -->
 
     <!-- Inicio Galeira De Fotos -->
+    <div class="container galeriafotos">
+        <div class="row galefotos">
+            <h4>Galeria de Fotos</h4>
+            <p class="alinhar">Explore os momentos que fazem parte da historia e do dia a dia do município</p>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img\GaleriaFotos1.PNG" class="card-img-top" alt="Imagem principal">
+                    <div class="card-body">
+                        <small class="text-muted">01 de Novembro de 2021</small>
+                        <h6 class="mt-2 fw-bold">Veja como foi o festival que movimentou a cidade no fim de semana</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img\GaleriaFotos1.PNG" class="card-img-top" alt="Imagem principal">
+                    <div class="card-body">
+                        <small class="text-muted">01 de Novembro de 2021</small>
+                        <h6 class="mt-2 fw-bold">Colorindo a cidade: murais e grafites que viraram ponto turistico</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="botao-container2">
+            <button class="btnnoticia">Veja mais galerias</button>
+        </div>
+    </div>
     <!-- Fim Galeira De Fotos -->
 
     <!-- Inicio Links Uteis -->
+    <div class="container links">
+        <div class="row linksuteis">
+            <h4>Links Úteis</h4>
+            <p class="alinhar">Conheça nossas noticias mais recentes</p>
+        </div>
+    </div>
     <!-- Fim Links Uteis -->
 
     <!-- Inicio rodapé -->
@@ -301,11 +322,17 @@
         </div>
     </div>
     <!-- Fim rodapé -->
-    <div class="container-fluid">
-        <div class="row">
-            <p>©2025 - Processo seletivo - Todos os direitos reservados</p>
+    <div class="bg-light py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="m-0">©2025 - Processo seletivo - Todos os direitos reservados</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <img src="img/logo-mpx.png" alt="Logo" style="height: 40px;">
+                </div>
+            </div>
         </div>
-        <img src="img\logo-mpx.png">
     </div>
 </body>
 

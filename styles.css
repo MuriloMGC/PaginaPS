@@ -4,29 +4,46 @@
 }
 
 /* acessibilidade */
-.navacess {
-    border: 1px solid;
-    border-radius: 12px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-grow: 1; 
+.acessibilidade{
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
-.acess {
+.nav-acessibilidade {
+    justify-content: space-between;
+    column-gap: clamp(.8rem, 2.4vw, 1.5rem);
+}
+
+.navacess {
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    flex-grow: 1; 
+    padding: 0 0 0 0;
+    align-self: center;
+}
+
+/* .acess {
     font-size: 14px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
+    align-self: center;
     color: #000;
-}
+} */
 
 .btnAcess {
     border: none;
-    all: unset;
-    justify-content: center;
+    border-radius: 8px;
+    font-weight: 400;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
 }
 
 .btnAcess:hover {
@@ -40,23 +57,26 @@
 /* ouvidoria */
 .btnouv {
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: #01579b;
-    justify-content: right !important;
-
+    align-self: center;
+    color: white;
+    padding: 5px 20px 5px 20px;
 }
 .btntransp{
     border: none;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: #006400;
     justify-content: right;
+    align-self: center;
+    color: white;
+    padding: 5px 20px 5px 20px;
 }
 
-.ouv{
-    text-align: center;
-    justify-content: right;
-    color: white;
+.ouvidoria{
+    padding-bottom: 30px;
 }
+
 /* ---------------------------- */
 /* Menu */
 
@@ -90,6 +110,28 @@
     background-color: #006400;
 }
 
+.noti{
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.btnnoticia{
+    background-color: #01579b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 400px;
+    border-radius: 12px;
+}
+
+.botao-container{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
 
 /* ------------------------*/
 /* CHATGPT */
@@ -112,13 +154,38 @@
     overflow: hidden;
 }
 /*--------------------------------------------------*/
+
+/* Galeria de fotos */
+.galefotos h4 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.botao-container2{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+
+/*-------------------------------------------------*/
+/* Links uteis */
+.linksuteis h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+/*------------------------------------------------*/
+
 /* Rodapé */
 .inforodape h4{
     color: white;
 }
 
 .containerfim{
-    background-color: #01579b
+    background-color: #01579b;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .rodape{
