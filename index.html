@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-------------->
 
 </head>
@@ -67,6 +68,75 @@
     <!-- Fim Logo/Ouvidoria -->
 
     <!-- Inicio Menu -->
+    <div class="container-fluid menuinicial">
+        <div class="container menuinicio">
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <!-- Prefeitura -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Prefeitura</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Prefeitura</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- A Cidade -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">A
+                                Cidade</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">A Cidade</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Secretarias -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Secretarias</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Secretarias</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Serviços -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Serviços</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Serviços</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Imprensa -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown">Imprensa</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Imprensa</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Fale Conosco -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fale
+                                Conosco</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Fale Conosco</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
 
     <!-- Fim Menu -->
 
@@ -86,7 +156,25 @@
                     </div>
                 </div>
             </div>
-            a
+            <div class="container mt-4">
+                <div class="slick-texto">
+                    <div>
+                        <button class="btnslick">Cidadão Online</button>
+                    </div>
+                    <div>
+                        <button class="btnslick">IPTU</button>
+                    </div>
+                    <div>
+                        <button class="btnslick">Emissão de Nota Fiscal</button>
+                    </div>
+                    <div>
+                        <button class="btnslick">Perguntas Frequentes</button>
+                    </div>
+                    <div>
+                        <button class="btnslick">Outras opções</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Fim Acesso Rapido -->
@@ -213,8 +301,47 @@
             <h4>Links Úteis</h4>
             <p class="alinhar">Conheça nossas noticias mais recentes</p>
         </div>
+        <div class="row imglink">
+            <div class="col-md-3">
+                <div class="img-block">
+                    <img src="img\Imagem1.PNG" class="img-fluid" alt="Imagem 1">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="img-block">
+                    <img src="img\Imagem1.PNG" class="img-fluid" alt="Imagem 2">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="img-block">
+                    <img src="img\Imagem1.PNG" class="img-fluid" alt="Imagem 3">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="img-block">
+                    <img src="img\Imagem4.PNG" class="img-fluid" alt="Imagem 4">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center flex-wrap gap-4 imglink2">
+            <div class="img-block" style="width: 300px;">
+                <img src="img/imagem5.PNG" class="img-fluid" alt="Imagem 5">
+            </div>
+            <div class="img-block" style="width: 300px;">
+                <img src="img/imagem6.PNG" class="img-fluid" alt="Imagem 6">
+            </div>
+        </div>
     </div>
     <!-- Fim Links Uteis -->
+
+    <!-- Inicio Endereço -->
+    <div class="container-fluid containerend">
+        <div class="img-container">
+            <img src="img\GaleriaFotos1.PNG" class="img-fundo">
+            <div class="filtro-azul"></div>
+        </div>
+    </div>
+    <!-- Fim Endereço -->
 
     <!-- Inicio rodapé -->
     <div class="container-fluid containerfim">
@@ -337,3 +464,13 @@
 </body>
 
 </html>
+<!-- Slick -->
+<script>
+    $(document).ready(function () {
+        $('.slick-texto').slick({
+            slidesToShow: 4,
+            dots: true,          // bolinhas de navegação
+            arrows: true,       // sem setas (pode ativar se quiser)
+        });
+    });
+</script>

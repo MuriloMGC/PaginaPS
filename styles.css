@@ -1,10 +1,10 @@
-.row{
+.row {
     margin: 0 !important;
 
 }
 
 /* acessibilidade */
-.acessibilidade{
+.acessibilidade {
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -21,7 +21,7 @@
     justify-content: center;
     text-align: center;
     align-self: center;
-    flex-grow: 1; 
+    flex-grow: 1;
     padding: 0 0 0 0;
     align-self: center;
 }
@@ -53,6 +53,7 @@
 .btnAcess:active {
     background-color: #90ee90;
 }
+
 /* ------------------------------- */
 /* ouvidoria */
 .btnouv {
@@ -63,7 +64,8 @@
     color: white;
     padding: 5px 20px 5px 20px;
 }
-.btntransp{
+
+.btntransp {
     border: none;
     border-radius: 8px;
     background-color: #006400;
@@ -73,18 +75,62 @@
     padding: 5px 20px 5px 20px;
 }
 
-.ouvidoria{
+.ouvidoria {
     padding-bottom: 30px;
 }
 
 /* ---------------------------- */
 /* Menu */
+.menuinicio .navbar-collapse {
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+.menuinicio .navbar-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.menuinicio .navbar-collapse a {
+    color: #01579b;
+    font-weight: 500;
+}
 
 /* --------------------------- */
 /* Acesso Rapido */
-.acerap h4{
+.acerap h4 {
     color: white;
 }
+
+.slick-texto div {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btnslick {
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnslick:hover {
+    background-color: #90ee90
+}
+
+.btnslick:active {
+    background-color: #006400;
+}
+
 /*-------------------------*/
 /* Noticias */
 
@@ -93,7 +139,7 @@
     text-align: center;
 }
 
-.alinhar{
+.alinhar {
     text-align: center;
 }
 
@@ -102,20 +148,20 @@
     justify-content: center;
 }
 
-.card:hover{
+.card:hover {
     background-color: #d4edda;
 }
 
-.card:active{
+.card:active {
     background-color: #006400;
 }
 
-.noti{
+.noti {
     padding-bottom: 40px;
     padding-top: 50px;
 }
 
-.btnnoticia{
+.btnnoticia {
     background-color: #01579b;
     color: white;
     padding: 10px 20px;
@@ -125,7 +171,7 @@
     border-radius: 12px;
 }
 
-.botao-container{
+.botao-container {
     justify-content: center;
     display: flex;
     padding-bottom: 30px;
@@ -153,6 +199,7 @@
     border-radius: 12px;
     overflow: hidden;
 }
+
 /*--------------------------------------------------*/
 
 /* Galeria de fotos */
@@ -161,7 +208,7 @@
     text-align: center;
 }
 
-.botao-container2{
+.botao-container2 {
     justify-content: center;
     display: flex;
     padding-bottom: 60px;
@@ -170,25 +217,84 @@
 
 /*-------------------------------------------------*/
 /* Links uteis */
-.linksuteis h4{
+.linksuteis h4 {
     font-weight: bold;
     text-align: center;
 }
 
+.img-block {
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+}
+
+.imglink2 {
+    align-content: center;
+}
+
 /*------------------------------------------------*/
 
+/* Endereço */
+
+.containerend {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+}
+
+.img-fundo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.filtro-azul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 72, 255, 0.532);
+}
+
+.texto-sobreposto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*-----------------------------------------------*/
+
 /* Rodapé */
-.inforodape h4{
+.inforodape h4 {
     color: white;
 }
 
-.containerfim{
+.containerfim {
     background-color: #01579b;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.rodape{
+.rodape {
     text-decoration: none;
     width: 264px;
     height: auto;
