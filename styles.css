@@ -15,7 +15,7 @@
 }
 
 .navacess {
-    border: 0.1px solid #eeeeeefb ;
+    border: 0.1px solid #eeeeeefb;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -101,12 +101,10 @@
     font-weight: 500;
 }
 
-/* Remove a seta padrão do Bootstrap */
 .navbar .dropdown-toggle::after {
     display: none;
 }
 
-/* Ajusta o ícone manual */
 .navbar .nav-link i.bi {
     font-size: 0.8rem;
     margin-top: 2px;
@@ -157,43 +155,43 @@
 }
 
 .slick-dots li button:before {
-  font-size: 12px;
-  color: white !important;
+    font-size: 12px;
+    color: white !important;
 }
 
 /* Arrow slick */
 .custom-arrow {
-  background-color: green;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: green;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slick-prev {
-  left: -35px !important;
+    left: -35px !important;
 }
 
 .slick-next {
-  right: -15px !important;
+    right: -15px !important;
 }
 
 .slick-prev:before,
 .slick-next:before {
-  display: none !important;
+    display: none !important;
 }
 
 .custom-arrow i {
-  font-size: 25px;
-  color: white;
+    font-size: 25px;
+    color: white;
 }
 
 /*-------------------------*/
@@ -204,7 +202,7 @@
     text-align: center;
 }
 
-.notic h6{
+.notic h6 {
     font-size: 18px;
 }
 
@@ -254,7 +252,6 @@
 
 
 /* ------------------------*/
-/* CHATGPT */
 .notic .card img {
     object-fit: cover;
     height: 100%;
@@ -277,22 +274,23 @@
 }
 
 .notic .col-md-6 .row.g-3 {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  gap: 40px; /* Espaçamento entre as 3 */
-  margin-top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 40px;
+    margin-top: 0 !important;
 }
 
-.notic .col-md-6 .row.g-3 > .col-md-12:first-child {
-  margin-top: 0 !important;
+.notic .col-md-6 .row.g-3>.col-md-12:first-child {
+    margin-top: 0 !important;
 }
 
 .borda-imagem {
-    background-color: white; /* Cor da borda */
-    padding: 10px;              /* Tamanho da borda */
-    border-radius: 8px;        /* Arredondamento opcional */
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
 }
+
 /*--------------------------------------------------*/
 
 /* Galeria de fotos */
@@ -301,7 +299,7 @@
     text-align: center;
 }
 
-.galefotos h6{
+.galefotos h6 {
     font-size: 18px;
 }
 
@@ -335,8 +333,8 @@
 }
 
 .imglink .col-12.d-flex {
-  gap: 20px;
-  margin-bottom: 25px;
+    gap: 20px;
+    margin-bottom: 25px;
 }
 
 /*------------------------------------------------*/
@@ -344,45 +342,29 @@
 /* Endereço */
 
 .containerend {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    padding-bottom: 10px;
-}
-
-.img-fundo {
-    width: 100%;
-    height: 200px;
-    fill: cover;
-    display: block;
-}
-
-.img-container {
-    position: relative;
-    overflow: hidden;
-}
-
-.filtro-azul {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 72, 255, 0.532);
-}
-
-.texto-sobreposto {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
+    background-color: #003e7e;
     color: white;
+    padding: 40px 0;
+}
+
+.containerend .logo img{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.containerend h6 {
     font-weight: bold;
-    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.containerend p {
+    margin: 0;
+    font-size: 0.95rem;
 }
 
 /*-----------------------------------------------*/
