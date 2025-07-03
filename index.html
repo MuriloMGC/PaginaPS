@@ -31,19 +31,19 @@
             <div class="col-12 acessibilidade">
                 <nav class="">
                     <ul class="nav nav-acessibilidade">
-                        <li class="nav-item navacess">
+                        <li class="nav-item navacess border-light">
                             <button type="button" class="btnAcess">Aumentar Fonte</button>
                         </li>
-                        <li class="nav-item navacess">
+                        <li class="nav-item navacess border-light">
                             <button type="button" class="btnAcess">Alto Contraste</button>
                         </li>
-                        <li class="nav-item navacess">
+                        <li class="nav-item navacess border-light">
                             <button type="button" class="btnAcess">Mapa do Site</button>
                         </li>
-                        <li class="nav-item navacess">
+                        <li class="nav-item navacess border-light">
                             <button type="button" class="btnAcess">Fonte para dislexia</button>
                         </li>
-                        <li class="nav-item navacess">
+                        <li class="nav-item navacess border-light">
                             <button type="button" class="btnAcess">Sobre a Acessibilidade</button>
                         </li>
                     </ul>
@@ -70,7 +70,7 @@
     <!-- Inicio Menu -->
     <div class="container-fluid menuinicial">
         <div class="container menuinicio">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="row navbar navbar-expand-lg">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent">
                     <span class="navbar-toggler-icon"></span>
@@ -80,8 +80,10 @@
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <!-- Prefeitura -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown">Prefeitura</a>
+                            <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                Prefeitura <i class="bi bi-chevron-down"></i>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Prefeitura</a></li>
                             </ul>
@@ -89,8 +91,10 @@
 
                         <!-- A Cidade -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">A
-                                Cidade</a>
+                            <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                A Cidade <i class="bi bi-chevron-down"></i>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">A Cidade</a></li>
                             </ul>
@@ -98,8 +102,10 @@
 
                         <!-- Secretarias -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown">Secretarias</a>
+                            <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                Secretarias <i class="bi bi-chevron-down"></i>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Secretarias</a></li>
                             </ul>
@@ -107,8 +113,10 @@
 
                         <!-- Serviços -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown">Serviços</a>
+                            <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                Serviços <i class="bi bi-chevron-down"></i>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Serviços</a></li>
                             </ul>
@@ -116,8 +124,10 @@
 
                         <!-- Imprensa -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown">Imprensa</a>
+                            <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                Imprensa <i class="bi bi-chevron-down"></i>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Imprensa</a></li>
                             </ul>
@@ -125,8 +135,10 @@
 
                         <!-- Fale Conosco -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Fale
-                                Conosco</a>
+                            <a class="nav-link dropdown-toggle d-flex align-items-center gap-1" href="#" role="button"
+                                data-bs-toggle="dropdown">
+                                Fale Conosco <i class="bi bi-chevron-down"></i>
+                            </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Fale Conosco</a></li>
                             </ul>
@@ -148,7 +160,7 @@
                     <h4 class="m-0">Acesso Rápido</h4>
                 </div>
                 <div class="col-md-4 text-end">
-                    <div class="input-group">
+                    <div class="input-group mt-5">
                         <input type="text" class="form-control" placeholder="O que você está procurando?" />
                         <span class="input-group-text">
                             <i class="bi bi-search"></i>
@@ -159,19 +171,29 @@
             <div class="container mt-4">
                 <div class="slick-texto">
                     <div>
-                        <button class="btnslick">Cidadão Online</button>
+                        <button class="btnslick">
+                            <i class="bi bi-person me-2"></i> Cidadão Online
+                        </button>
                     </div>
                     <div>
-                        <button class="btnslick">IPTU</button>
+                        <button class="btnslick">
+                            <i class="bi bi-house"></i> IPTU
+                        </button>
                     </div>
                     <div>
-                        <button class="btnslick">Emissão de Nota Fiscal</button>
+                        <button class="btnslick">
+                            <i class="bi bi-receipt"></i> Emissão de Nota Fiscal
+                        </button>
                     </div>
                     <div>
-                        <button class="btnslick">Perguntas Frequentes</button>
+                        <button class="btnslick">
+                            <i class="bi bi-question-circle"></i> Perguntas Frequentes
+                        </button>
                     </div>
                     <div>
-                        <button class="btnslick">Outras opções</button>
+                        <button class="btnslick">
+                            <i class="bi bi-chat-fill"></i> Outras opções
+                        </button>
                     </div>
                 </div>
             </div>
@@ -469,8 +491,10 @@
     $(document).ready(function () {
         $('.slick-texto').slick({
             slidesToShow: 4,
-            dots: true,          // bolinhas de navegação
-            arrows: true,       // sem setas (pode ativar se quiser)
+            dots: true,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev custom-arrow"><i class="bi bi-chevron-left"></i></button>',
+            nextArrow: '<button type="button" class="slick-next custom-arrow"><i class="bi bi-chevron-right"></i></button>',
         });
     });
 </script>

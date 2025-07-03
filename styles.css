@@ -15,7 +15,7 @@
 }
 
 .navacess {
-    border: 1px solid #eeeeee;
+    border: 0.1px solid #eeeeeefb ;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -88,6 +88,7 @@
     display: flex;
     justify-content: center;
     padding: 10px 40px;
+    position: absolute;
 }
 
 .menuinicio .navbar-nav {
@@ -100,16 +101,31 @@
     font-weight: 500;
 }
 
+/* Remove a seta padrão do Bootstrap */
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+/* Ajusta o ícone manual */
+.navbar .nav-link i.bi {
+    font-size: 0.8rem;
+    margin-top: 2px;
+    position: relative;
+    top: 2px;
+}
+
 /* --------------------------- */
 /* Acesso Rapido */
 .acerap h4 {
     color: white;
+    margin-top: 50px !important;
 }
 
 .slick-texto div {
     padding: 20px;
     border-radius: 8px;
     text-align: center;
+    position: relative;
 }
 
 .btnslick {
@@ -117,9 +133,10 @@
     border-radius: 8px;
     background-color: white;
     color: black;
-    padding: 5px 20px;
+    padding: 5px 10px;
     width: 100%;
-    text-align: center;
+    min-height: 40px;
+    text-align: left;
     cursor: pointer;
 }
 
@@ -129,6 +146,54 @@
 
 .btnslick:active {
     background-color: #006400;
+}
+
+.btnslick i {
+    border: none;
+    border-radius: 6px;
+    background-color: green;
+    padding: 3px 3px;
+    text-align: left;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: white !important;
+}
+
+/* Arrow slick */
+.custom-arrow {
+  background-color: green;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-prev {
+  left: -35px !important;
+}
+
+.slick-next {
+  right: -15px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none !important;
+}
+
+.custom-arrow i {
+  font-size: 25px;
+  color: white;
 }
 
 /*-------------------------*/
@@ -248,7 +313,7 @@
 .img-fundo {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    fill: cover;
     display: block;
 }
 
